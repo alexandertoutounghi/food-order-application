@@ -1,0 +1,31 @@
+.icon {
+  width:1.35em;
+  height:1.35em
+}
+.button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:0 5%;
+  //padding:0 5%;
+  border-radius: 25px;
+  border:none;
+  padding:0.75em 3em;
+  color:white;
+  font-weight:bold;
+  background:rgba(0,0,0,0.5);
+  span {
+    margin: 0 0.5em 0;
+    //padding:0.5em 0;
+  }
+  &:hover, &:active {
+    background:rgba(0,0,0,0.75);
+    cursor:pointer;
+  }
+}
+
+.badge {
+  background: red;
+  padding:0.25em 1em;
+  border-radius: 15px;
+}

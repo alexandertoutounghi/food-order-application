@@ -1,0 +1,19 @@
+.control {
+  //width:100%;
+}
+#item-4 {
+  grid-area:d;
+}
+
+.meal-button {
+  //width:15%;
+  //grid-area:c;
+  //justify-self: end;
+  margin-left: auto;
+  label {
+    margin-right: 0.5em;
+  }
+  input {
+    width:1.5em;
+  }
+}
