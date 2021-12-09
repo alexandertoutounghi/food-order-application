@@ -4,6 +4,7 @@ import Button from "../../UI/Button/Button";
 import classes from './Meal.module.scss';
 const Meal = () => {
     return (
+        <Fragment>
         <div className={classes.meal}>
                 <h3 id={classes['item-1']}>Sushi</h3>
                 <p id={classes['item-2']}><em>Finest fish and veggies</em></p>
@@ -12,6 +13,8 @@ const Meal = () => {
                 <Button className={'add-btn'} id={'item-5'}>+Add</Button>
 
         </div>
+            <hr/>
+        </Fragment>
     );
 };
 
