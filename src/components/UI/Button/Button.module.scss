@@ -5,9 +5,11 @@
   font-weight:bold;
   background-color:red;
   padding:0.25em 1.5em;
+  //width:100px;
 }
 #item-5 {
   grid-area: e;
-  min-width: 0;
+  justify-self: end;
+align-self: center;
 
 }

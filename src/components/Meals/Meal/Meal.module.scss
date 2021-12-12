@@ -1,14 +1,24 @@
 .meal {
   display: grid;
-  grid-template-areas: "a a d d"
-                       "b . . e"
-                       "c . . .";
+  grid-template-areas: "a a a . . d d d"
+                       "b . . . . . . e"
+                       "c . . . . . . .";
+
   #item-1 {
-    grid-area:a;
-  } #item-2 {
-    grid-area:b;
-  }#item-3 {
-    grid-area:c;
+    grid-area: a;
   }
+
+  #item-2 {
+    grid-area: b;
+  }
+
+  #item-3 {
+    grid-area: c;
+    //margin: 0;
+  }
+  h3 {
+    margin: 0;
+  }
+
 
 }

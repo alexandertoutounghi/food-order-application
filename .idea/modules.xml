@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/food-order-application.iml" filepath="$PROJECT_DIR$/.idea/food-order-application.iml" />
+      <module fileurl="file://$USER_HOME$/IntellijProjects/food-order-application-backend/food-order-application-backend/food-order-application-backend.iml" filepath="$USER_HOME$/IntellijProjects/food-order-application-backend/food-order-application-backend/food-order-application-backend.iml" />
     </modules>
   </component>
 </project>
