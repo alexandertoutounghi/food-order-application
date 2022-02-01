@@ -9,5 +9,33 @@
 #item-5 {
   grid-area: e;
   min-width: 0;
+}
+#item-4 {
+  grid-area:d;
+}
+#item-5 {
+  grid-area:e;
+}#item-6 {
+  grid-area:f;
+}
+ #item-7 {
+   grid-area:g;
+ }
+// Increase-decrease button
+.inc-dec {
+  border:none;
+  font-weight:bold;
+  text-align:center;
+  &:hover {
+    cursor:pointer;
+    color:white;
+  }
+  border-radius:2px;
+ }
 
+#inc {
+  background:red;
+}
+#dec {
+  background: #299ee0;
 }

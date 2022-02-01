@@ -1,0 +1,16 @@
+.quantity {
+  margin: 1.17rem 0;
+  display: grid;
+  grid-template-areas: "a a a";
+  grid-template-rows: 20px;
+  grid-template-columns: 20px 40px 20px;
+  input {
+    text-align: center;
+    //width: 100px;
+  }
+
+}
+#item-4 {
+  grid-area:d;
+}
+

@@ -1,14 +1,21 @@
 .meal {
   display: grid;
-  grid-template-areas: "a a d d"
-                       "b . . e"
-                       "c . . .";
+  grid-template-areas: "a .  d "
+                       "b .  e"
+                       "c . .";
+  grid-template-columns: 40% 40% 20%;
+
   #item-1 {
-    grid-area:a;
-  } #item-2 {
-    grid-area:b;
-  }#item-3 {
-    grid-area:c;
+    grid-area: a;
   }
+
+  #item-2 {
+    grid-area: b;
+  }
+
+  #item-3 {
+    grid-area: c;
+  }
+
 
 }
