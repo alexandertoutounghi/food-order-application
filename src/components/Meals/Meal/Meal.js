@@ -4,14 +4,15 @@ import Button from "../../UI/Button/Button";
 import classes from './Meal.module.scss';
 import Quantity from "../Quantity/Quantity";
 
-const Meal = () => {
+const Meal = (props) => {
+    const {name,description,price} = props;
 
     return (
         <Fragment>
             <div className={classes.meal}>
-                <h3 id={classes['item-1']}>Sushi</h3>
-                <p id={classes['item-2']}><em>Finest fish and veggies</em></p>
-                <p id={classes['item-3']}><strong>$22.99</strong></p>
+                <h3 id={classes['item-1']}>{name}</h3>
+                <p id={classes['item-2']}><em>{description}</em></p>
+                <p id={classes['item-3']}><strong>${price}</strong></p>
                 <Quantity/>
 
 
